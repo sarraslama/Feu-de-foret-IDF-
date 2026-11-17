@@ -49,9 +49,6 @@ Pour chaque question, la donnée qu'il vous faudrait idéalement pour répondre.
 
 | Question | Donnée idéale | Grain (une ligne = ?) | Période | Fraîcheur | Emprise géographique |
 |---|---|---|---|---|---|
-| Question | Donnée idéale | Grain (une ligne = ?) | Période | Fraîcheur | Emprise géographique |
-|---|---|---|---|---|---|
-
 | 1 | Historique des départs de feu avec un identifiant unique, la date et la localisation du départ. Découpage des secteurs pour rattacher chaque départ à une zone d’intervention. | Une ligne par départ de feu. Une ligne par secteur dans le découpage géographique. | Plusieurs saisons comparables jusqu’à 2026. | Historique consolidé jusqu’à la saison 2026 avant la répartition des moyens. | Île-de-France, avec un détail par secteur d’intervention. |
 | 2 | Date, heure de départ et secteur de chaque feu. Heures de patrouille et de guet mobilisables par secteur et par créneau. | Une ligne par départ de feu. Une ligne par secteur, date et créneau pour les moyens disponibles. | Plusieurs saisons jusqu’à 2026 pour les feux. Saison 2027 pour les moyens. | Historique consolidé et disponibilités à jour lors de la planification des patrouilles. | Secteurs prioritaires d’Île-de-France. |
 | 3 | Niveau de danger annoncé pour la journée, nombre de départs, coût estimé et heures nécessaires pour une journée de renfort. Les journées sans départ confirmé et les journées où l’information manque doivent être identifiables. | Une ligne par département et par jour. | Toutes les saisons communes aux historiques des bulletins et des départs, idéalement jusqu’à 2026. | Historique consolidé avant le choix du seuil. En 2027, bulletin disponible avant la décision quotidienne de renfort. | Départements d’Île-de-France. |
