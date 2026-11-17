@@ -21,10 +21,6 @@ Cela permettra de voir si les incendies se concentrent dans certains types ou se
 **Ce que cela coûte :**  
 Du temps pour nettoyer et croiser les données géographiques.
 
-**Date :** 17/11/2026
-
-**Auteurs :** Fatiha Bouhadad / groupe
-
 ---
 
 ## Décision 2 — Garder l’artificialisation des sols comme source complémentaire
