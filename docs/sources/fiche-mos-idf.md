@@ -1,6 +1,6 @@
 # Fiche d’identité · Mode d’occupation du sol (MOS) Île-de-France
 
-**Exploré par** Hassina Yasmine Kenane
+**Exploré par**  Yasmine Kenane
 
 | Rubrique | Valeur |
 |---|---|
