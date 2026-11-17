@@ -40,9 +40,7 @@ Elle permet de mieux caractériser les communes et de regarder la proximité ent
 **Ce que cela coûte :**  
 Il faut rester prudent dans l’interprétation : un territoire très artificialisé n’est pas automatiquement un territoire plus exposé aux incendies.
 
-**Date :** 17/11/2026
 
-**Auteurs :** Fatiha Bouhadad / groupe
 
 ---
 
@@ -63,9 +61,7 @@ Pour calculer les faux positifs et les faux négatifs, nous devons comparer les 
 **Ce que cela coûte :**  
 Du temps pour trouver les données, les récupérer et les mettre au même format que les données sur les incendies.
 
-**Date :** 17/11/2026
 
-**Auteurs :** Fatiha Bouhadad / groupe
 
 ---
 
@@ -86,6 +82,4 @@ Les données géographiques permettent de repérer les zones à enjeux, mais ell
 **Ce que cela coûte :**  
 Il faudra rechercher des données financières et opérationnelles supplémentaires.
 
-**Date :** 17/11/2026
 
-**Auteurs :** Fatiha Bouhadad / groupe
