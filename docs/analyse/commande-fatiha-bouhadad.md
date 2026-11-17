@@ -59,4 +59,4 @@ Pour chaque question, la donnée qu'il vous faudrait idéalement pour répondre.
 
 Pour la Q2 (Périodes et horaires): un membre du groupe à pris la source BDIFF qui contient les historiques d'interventions du SDIS 77 pour obtenir l'horodatage précis (mois, heure) des départs de feux.
 Pour la Q3 (Fausses alertes / Météo des forêts) : collecter :je vais revoir certains datasets et extraire certaines métriques qui vont me permettre de faire le lien et de résoudre la Q3
-Pour la Q 4 (Répartition du budget) : approximer — En l'absence de données comptables précises sur les coûts de déploiement nous utilisons l'analyse spatiale de l'artificialisation et de la localisation des zones à risque (couplée au carroyage DFCI) comme proxy pour cibler les secteurs prioritaires.
+Pour la Q 4 (Répartition du budget) : approximer, en l'absence de coûts en euros nous nous basons sur l'artificialisation des sols pour orienter le budget de prévention.
