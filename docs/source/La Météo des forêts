@@ -1,0 +1,116 @@
+1. Propriétaire et système
+**Nom** de la source : La Météo des forêts.
+**Producteur** : Météo-France.
+** Système **: Un dispositif national pour sensibiliser chacun aux risques d’incendies et apprendre à mieux protéger nos forêts et notre végétation.
+**Objectif** : Informer chacun des conditions météo qui peuvent favoriser les départs et la propagation des feux de forêt.
+** Fonctionnement **: Météo-France met chaque jour à disposition des cartes qui indiquent le niveau de risque d’incendie dans chaque département, en tenant compte de la météo, 
+de la sécheresse de la végétation et des particularités du territoire.
+
+
+2. Mode d'accès et format
+**Mode d'accès** : consultation sur le site officiel de Météo-France et téléchargement ou exploitation des données publiques via la plateforme meteo.data.gouv.fr.
+**Site officiel** : https://meteofrance.com/meteo-des-forets
+ **Accès aux données** : depuis le 1er janvier 2024, les données publiques de Météo-France sont accessibles gratuitement et sans frais de mise à disposition.
+** Les données de la Météo des forêts sont également consultables et exploitables en temps réel. 
+
+
+3. Grain
+- Chaque information indique le niveau de risque d’incendie prévu pour un département à une date donnée.
+- Chaque département possède un niveau de danger parmi quatre catégories :
+  - Faible.
+  - Modéré.
+  - Élevé.
+  - Très élevé.
+- Les informations sont produites pour deux échéances :
+  - Le lendemain.
+  - Le surlendemain.
+Le niveau de danger est défini pour chaque département et pour chaque jour de prévision.
+
+
+4. Emprise géographique
+- Le dispositif couvre l’ensemble de la France métropolitaine, y compris la Corse.
+- Les informations sont présentées département par département.
+- Chaque département dispose de son propre niveau de danger d’incendie.
+- Ces données permettent de comparer les risques entre les différents départements et régions.
+- L’Île-de-France est également concernée, car ses forêts et espaces naturels sont eux aussi exposés aux risques d’incendie.
+
+
+
+5. Période réellement couverte par les données
+ - Le dispositif « Météo des forêts » a été lancé en 2023.
+ - Il est principalement diffusé pendant la période estivale, lorsque les risques d’incendie sont plus importants.
+- En 2026, il est disponible du 28 mai au 30 septembre.
+- Les cartes indiquent les niveaux de danger prévus pour les deux jours à venir.
+- La période couverte par les données téléchargées peut varier selon le fichier choisi sur la plateforme meteo.data.gouv.fr.
+- Il est donc important de vérifier les dates couvertes par le fichier avant de commencer l’analyse.
+
+
+
+6. Date de dernière mise à jour affichée sur la fiche
+- La Météo des forêts est mise à jour chaque jour pendant sa période de diffusion.
+- Les cartes sont publiées quotidiennement à 17 h.
+- La date de la dernière mise à jour peut varier selon le moment où les données sont consultées et le fichier téléchargé.
+- Il est important de faire la différence entre la date de publication des prévisions et celle de la dernière mise à jour des informations du jeu de données sur meteo.data.gouv.fr.
+
+
+7. Fréquence de mise à jour
+- Fréquence : quotidienne pendant la période de diffusion.
+- Les cartes sont mises à disposition chaque jour à 17 h.
+- Chaque publication présente deux cartes :
+  - Une carte pour le lendemain.
+  - Une carte pour le surlendemain.
+- Les niveaux de danger sont réévalués en fonction des nouvelles prévisions météorologiques et des informations disponibles sur l'état de la végétation.
+- Le dispositif fonctionne principalement de la fin du printemps au début de l'automne. 
+  Météo-France+1
+
+  
+8. Volumétrie
+- La volumétrie dépend de la période téléchargée et du périmètre géographique retenu.
+- Les cartes concernent les départements de France métropolitaine et de Corse.
+- Chaque département possède un niveau de danger pour chacune des deux journées de prévision.
+- Les données peuvent donc permettre de constituer un historique quotidien des niveaux de danger.
+- Le nombre exact d'enregistrements du fichier étudié reste à déterminer à partir du téléchargement effectué sur la plateforme meteo.data.gouv.fr.
+
+
+9. Clés disponibles
+Les principaux champs pouvant servir à identifier les observations et à réaliser des jointures sont notamment :
+- Code département : identifiant du département concerné.
+- Nom du département : nom du territoire auquel correspond le niveau de danger.
+- Date de prévision : journée pour laquelle le niveau de danger est établi.
+- Date de diffusion : date à laquelle la carte est publiée.
+- Niveau de danger : catégorie de danger attribuée au département.
+- Échéance de prévision : distinction entre le lendemain et le surlendemain.
+
+
+10. Données personnelles
+- La source ne contient pas de données personnelles directement identifiables.
+- Les informations concernent principalement les conditions météorologiques, les niveaux de danger et les territoires concernés.
+- Les données sont produites à une échelle géographique départementale.
+- Elles ne comportent pas, par nature, d'informations nominatives sur les habitants.
+
+
+11. Licence
+- Les données publiques de Météo-France sont accessibles gratuitement depuis le 1er janvier 2024.
+- Elles sont diffusées sur la plateforme meteo.data.gouv.fr.
+
+12. Questions de l'analyse auxquelles cette source pourrait répondre
+La Météo des forêts peut permettre de répondre aux questions suivantes comme par exemple 
+- Comment évolue le niveau de danger de feux en Île-de-France au cours de la période estivale ?
+- Quels départements franciliens présentent les niveaux de danger les plus élevés ?
+- Quelles sont les périodes de l'année où les conditions météorologiques sont les plus favorables aux incendies ?
+- Peut-on identifier les périodes nécessitant un renforcement des actions de prévention et de surveillance ?
+
+
+13. Limites et qualité des données
+L'utilisation de la Météo des forêts présente plusieurs limites :
+- Les données correspondent à des niveaux de danger prévus et non à des incendies réellement observés.
+- La Météo des forêts ne permet pas de connaître les feux en cours ni de prévoir avec certitude les départs d'incendie.
+- Un niveau de danger faible ne signifie pas qu'aucun incendie ne peut se déclarer.
+- Un niveau de danger élevé ne signifie pas qu'un incendie va nécessairement se produire.
+ 
+Sources documentaires
+- Site officiel de la Météo des forêts – Météo-France : https://meteofrance.com/meteo-des-forets
+- Météo-France – La Météo des forêts : s'informer sur le danger de feux : https://meteofrance.com/actualites/la-meteo-des-forets-sinformer-sur-le-danger-de-feux
+- Plateforme des données publiques de Météo-France : https://meteo.data.gouv.fr/
+- Météo-France – 10 questions pour comprendre la Météo des forêts : https://meteofrance.com/sites/meteofrance.com/files/files/editorial/10-questions-pour-comprendre-meteo-des-forets_0.pdf
+- Météo-France – Dossier de presse Été 2026 : https://meteofrance.com/sites/default/files/files/editorial/DP-ete-2026-meteo-france.pdf
