@@ -1,4 +1,4 @@
-# Analyse de la commande — Fatiha Bouhadad
+# Analyse de la commande 
 
 ## 1. Questions d’analyse
 
