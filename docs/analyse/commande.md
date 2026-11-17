@@ -52,10 +52,10 @@ Quatre questions permettent d’éclairer la décision de la direction :
 
 | Question | Source explorée | Couverture | Justification |
 |---|---|---|---|
-| **Q1 — Caractéristiques des zones touchées** | Artificialisation des sols — fichier communal | 🟡 **Partielle** | Le grain communal et les pourcentages d'artificialisation permettent de caractériser les communes et d'identifier les zones où l'interface habitat-forêt peut être importante. Cependant, la source ne contient pas l'historique des départs de feux. |
-| **Q2 — Périodes de concentration des feux** | BDIFF — historiques des interventions du SDIS 77 | 🟢 **Bonne** | Les dates et heures des interventions permettent d'identifier les mois et les plages horaires où les départs de feux sont les plus fréquents. |
-| **Q3 — Faux positifs / faux négatifs** | Données Météo des forêts + interventions réelles | 🟠 **À compléter** | Les différents jeux de données doivent être croisés afin de comparer le niveau de danger annoncé avec les interventions réellement observées. Les métriques de faux positifs et de faux négatifs pourront ensuite être calculées. |
-| **Q4 — Répartition du budget et des ressources** | Artificialisation des sols — fichier communal | 🟡 **Partielle** | En l'absence de données précises sur les coûts et les ressources disponibles, l'artificialisation peut servir d'indicateur pour identifier les zones où la pression liée à l'interface habitat-forêt est importante et orienter les actions de prévention. |
+| **Q1 — Caractéristiques des zones touchées** | Artificialisation des sols — fichier communal | **Partielle** | Le grain communal et les pourcentages d'artificialisation permettent de caractériser les communes et d'identifier les zones où l'interface habitat-forêt peut être importante. Cependant, la source ne contient pas l'historique des départs de feux. |
+| **Q2 — Périodes de concentration des feux** | BDIFF — historiques des interventions du SDIS 77 |  **Bonne** | Les dates et heures des interventions permettent d'identifier les mois et les plages horaires où les départs de feux sont les plus fréquents. |
+| **Q3 — Faux positifs / faux négatifs** | Données Météo des forêts + interventions réelles |  **À compléter** | Les différents jeux de données doivent être croisés afin de comparer le niveau de danger annoncé avec les interventions réellement observées. Les métriques de faux positifs et de faux négatifs pourront ensuite être calculées. |
+| **Q4 — Répartition du budget et des ressources** | Artificialisation des sols — fichier communal |  **Partielle** | En l'absence de données précises sur les coûts et les ressources disponibles, l'artificialisation peut servir d'indicateur pour identifier les zones où la pression liée à l'interface habitat-forêt est importante et orienter les actions de prévention. |
 
 ---
 
