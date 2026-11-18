@@ -106,4 +106,3 @@ Le croisement du **MOS, de la BDIFF, de l’Artificialisation des sols et de la 
 
 Les données disponibles permettent déjà d’étudier les **zones touchées**, les **types de territoires concernés**, les **périodes de danger** et la relation entre **danger annoncé et incendies observés**.
 
-En revanche, la question de la **répartition optimale du budget** ne pourra être traitée complètement qu'après avoir obtenu des données financières et opérationnelles complémentaires.
