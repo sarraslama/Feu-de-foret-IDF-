@@ -49,24 +49,16 @@ Quatre questions permettent d’éclairer la décision de la direction :
 ---
 
 ## 5. Matrice de couverture
+| Question | Mode d’occupation du sol (MOS) | BDIFF | Artificialisation des sols | Météo des forêts |
+|---|---|---|---|---|
+| **Q1. Quelles sont les caractéristiques des zones les plus touchées en Seine-et-Marne ?** |  **Bonne** — permet de caractériser l’occupation du sol et de distinguer les espaces urbains, agricoles, forestiers et naturels. |  **Bonne** — permet de localiser les incendies et d’identifier les secteurs les plus touchés. |  **Partielle** — permet de caractériser le niveau d’artificialisation et la pression urbaine sur les territoires concernés. | **Partielle** — permet de caractériser les niveaux de danger météorologique associés aux territoires et aux périodes étudiées. |
+| **Q2. À quelles périodes et à quels moments de la journée les départs de feux sont-ils les plus fréquents ?** |  **Absente** — ne fournit pas l’historique temporel des incendies. | **Bonne** — permet d’analyser la répartition des incendies dans le temps si les dates et heures des événements sont disponibles. |  **Absente** — ne contient pas les dates et horaires des incendies. |  **Partielle** — permet de comparer les périodes de danger météorologique avec les périodes de survenue des incendies, mais ne permet pas à elle seule d’identifier les heures de départ des feux. |
+| **Q3. Quelle est l’ampleur des faux positifs et des faux négatifs sous le seuil actuel de la Météo des forêts ?** |  **Absente** — ne fournit ni prévisions météorologiques ni historique des incendies. | **Bonne** — fournit les incendies réellement observés nécessaires pour comparer les prévisions aux événements réels. |  **Absente** — ne fournit pas les niveaux de danger météorologique ni les incendies observés. |  **Bonne** — fournit les niveaux de danger permettant de comparer les prévisions avec les incendies réellement observés dans la BDIFF. |
+| **Q4. Comment répartir au mieux le budget limité pour protéger en priorité les zones et les moments les plus risqués ?** | **Bonne** — permet d’identifier les types d’occupation du sol présents dans les zones exposées et de cibler les secteurs prioritaires. |  **Bonne** — permet d’identifier les secteurs ayant connu des incendies et d’évaluer leur récurrence. |  **Partielle** — permet d’identifier les secteurs soumis à une forte pression urbaine, mais ne permet pas de déterminer directement la répartition du budget. |  **Bonne** — permet d’identifier les périodes et les niveaux de danger afin de cibler les moments nécessitant davantage de moyens. |
 
-# Matrice de confrontation des questions et des sources
-
-Cette matrice permet de confronter les questions d’analyse retenues par le groupe aux sources étudiées afin d’identifier les sources réellement utiles, les couvertures partielles et les données manquantes.
-
-## Matrice de couverture
-
-| Question | Artificialisation des sols | Recherche et identification des incendies | BD Forêt |
-|---|---|---|---|
-| **Q1. Quelles sont les caractéristiques des zones les plus touchées en Seine-et-Marne ?** |  **Partielle** — permet de caractériser le niveau d’artificialisation des communes et d’identifier les secteurs fortement urbanisés. |  **Bonne** — permet de localiser les incendies recensés et d’identifier les secteurs les plus touchés. |  **Bonne** — permet de localiser et de caractériser les espaces forestiers concernés. |
-| **Q2. À quelles périodes et à quels moments de la journée les départs de feux sont-ils les plus fréquents ?** | **Absente** — ne contient pas d’informations sur les dates ou les horaires des incendies. |  **Partielle** — permet d’étudier la fréquence des incendies, à condition que les données contiennent des informations temporelles suffisamment précises, notamment les dates et, si possible, les heures. | **Absente** — décrit principalement les espaces forestiers et ne fournit pas l’historique temporel des incendies. |
-| **Q3. Quelle est l’ampleur des faux positifs et des faux négatifs sous le seuil actuel de la Météo des forêts ?** |  **Absente** — ne contient ni niveaux de danger météorologique ni historique des prévisions. |  **Partielle** — permet d’identifier les incendies réellement observés, mais ne fournit pas à elle seule les niveaux de danger annoncés par la Météo des forêts. |  **Absente** — ne contient pas les prévisions de la Météo des forêts nécessaires à l’évaluation du seuil. |
-| **Q4. Comment répartir au mieux le budget limité pour protéger en priorité les zones et les moments les plus risqués ?** |  **Partielle** — permet de caractériser la pression urbaine et l’interface entre espaces urbanisés et espaces naturels. |  **Partielle** — permet d’identifier les secteurs ayant connu des incendies et donc de repérer les zones nécessitant potentiellement une attention particulière. |  **Partielle** — permet de localiser et de caractériser les espaces forestiers à protéger, mais ne permet pas à elle seule de déterminer la répartition optimale du budget. |
 
 
 ## 6. Décisions face aux données manquantes
 
-- **Q1 — Zones les plus touchées :** utiliser l'artificialisation des sols comme premier indicateur de caractérisation des territoires.
-- **Q2 — Périodes et horaires :** utiliser les données **BDIFF** afin d'extraire les dates et heures des départs de feux.
-- **Q3 — Météo des forêts :** revoir les datasets disponibles et extraire les métriques nécessaires pour croiser les niveaux de danger avec les interventions réelles.
-- **Q4 — Répartition du budget :** en l'absence de données financières détaillées, utiliser l'artificialisation des sols comme **indicateur proxy** pour orienter les actions de prévention.
+
+L’analyse des sources disponibles montre que certaines questions ne peuvent pas être traitées complètement avec les données actuelles. Il est donc nécessaire de préciser quelles données doivent être recherchées en priorité et quelles hypothèses peuvent être retenues lorsque certaines informations restent indisponibles.
