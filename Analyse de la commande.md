@@ -30,13 +30,8 @@ Les quatre questions auxquelles l'analyse devra apporter des réponses sont :
 
 ### Ce qui manque dans la commande pour y répondre
 
-* Le budget disponible pour les actions de prévention et de surveillance.
-* Le nombre d’agents et les moyens matériels du SDIS 77.
-* Les critères et seuils de la Météo des forêts.
-* Les données historiques détaillées des interventions.
-* Les données météorologiques sur la température, le vent, l’humidité et les précipitations.
+Ce qui manque dans la commande pour y répondre (une information, une précision, une hypothèse à confirmer) : Le budget exact alloué aux renforcements, le nombre d'agents disponibles, ou encore la définition précise du seuil actuel qui pose problème. sans oublier les données historiques détaillées des interventions et les données météorologiques sur la température, le vent, l’humidité et les précipitations qui vont nous aider à faire notre analyse.
 
----
 
 ## 4. Les données
 
