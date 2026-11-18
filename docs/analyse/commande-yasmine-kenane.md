@@ -10,11 +10,11 @@ Quatre questions dont la réponse aiderait la direction à trancher.
 
 > [!test] Test
 > Le test : si la réponse est X, la direction fait A ; si elle est Y, elle fait B. Si A et B sont identiques, ce n'est pas une question analytique pertinente.
-
+https://github.com/sarraslama/Feu-de-foret-IDF-/blob/Yasmine/docs/analyse/commande-yasmine-kenane.md
 1. Dans quels départements d’Île-de-France les départs de feu se concentrent ils d’une saison à l’autre ?
 2. Dans les secteurs prioritaires, quels jours de la semaine et quels créneaux horaires concentrent le plus de départs de feu ?
 3. Pour chaque seuil de la Météo des forêts, combien de journées de renfort seraient déclenchées par département francilien, combien seraient sans départ de feu observé et combien de journées avec départ resteraient sous le seuil ?
-4.Dans les départements d’Île-de-France, les feux qui démarrent les jours où le niveau de danger annoncé est inférieur au seuil de renfort atteignent-ils des surfaces brûlées comparables à celles observées dans le reste de la France, pour les mêmes niveaux de danger ?
+4. Dans les départements d’Île-de-France, les feux qui démarrent les jours où le niveau de danger annoncé est inférieur au seuil de renfort atteignent-ils des surfaces brûlées comparables à celles observées dans le reste de la France, pour les mêmes niveaux de danger ?
 
 ## 2. Les termes inconnus
 
