@@ -25,5 +25,6 @@
 - **Nature des indicateurs :** L'artificialisation quantifie la imperméabilisation et la perte de sols naturels/agricoles, mais ne renseigne pas directement sur la typologie précise de la végétation combustible ou sur les mesures locales de prévention (comme le débroussaillement).
 
 ### Sources consultées
-- Fiche descriptive et portail de téléchargement « Mon Diagnostic Artificialisation » (Ministère de la Transition écologique).
+- Fiche descriptive et portail de téléchargement « Mon Diagnostic Artificialisation » (Ministère de la Transition écologique)
+  URL: (https://defis.data.gouv.fr/datasets/697b4f4d51a9d53976e5a8c9)
 - Documentation méthodologique de l'OCSGE et du Cerema relative au calcul de l'artificialisation des sols.
