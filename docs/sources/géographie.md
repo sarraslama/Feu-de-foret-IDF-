@@ -1,6 +1,6 @@
-## Fiche d'identité · Artificialisation des sols
+# Fiche d'identité · Artificialisation des sols
 
-# Exploré par Fatiha Bouhadad
+## Exploré par Fatiha Bouhadad
 
 
 | Rubrique | Valeur |
