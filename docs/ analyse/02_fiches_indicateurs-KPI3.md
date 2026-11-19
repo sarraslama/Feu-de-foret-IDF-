@@ -123,6 +123,4 @@ Ce jeu reste une proposition individuelle. Les autres objectifs du groupe et leu
 - Extraction Incendies.csv fournie par le groupe, 347 événements et 24 colonnes après les trois lignes de métadonnées.
 - Profil qualité BDIFF établi dans le projet.
 
-## 8. Dépôt et revue
 
-Déposer cette contribution dans kpi/02_fiches_indicateurs.md. Si un fichier collectif existe déjà, ajouter cette contribution dans une section au nom de Yasmine et conserver les fiches des autres membres. Faire un commit individuel, puis soumettre la contribution à la relecture du groupe. La spécification conserve une ligne par indicateur et renvoie vers ce fichier.
