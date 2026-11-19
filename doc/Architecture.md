@@ -1,4 +1,4 @@
-# Architecture Data et Stack technique
+# Architecture Data et Stack à utiliser
 
 Ce document décrit l'architecture technique, l'organisation du projet ainsi que la stack retenue :
 
