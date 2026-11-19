@@ -1,4 +1,4 @@
-# Architecture Data & BI — Prévention des Feux de Forêt (SDIS 77)
+# Architecture Data et Stuck à utliser
 
 Ce document décrit l'architecture technique et l'organisation du projet ainsi que la stuck à utiliser:
 
