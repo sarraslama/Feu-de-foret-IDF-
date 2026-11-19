@@ -17,7 +17,7 @@ Ce document décrit l'architecture technique, l'organisation du projet ainsi que
 
 ## 2. Stack technique retenue
 
-Une architecture simple, pragmatique et reproductible :
+Une architecture simple:
 
 - **Traitement & préparation (ETL léger)** : Python (`pandas`, `numpy`)
 - **Stockage intermédiaire & analytique** : Fichiers normalisés (CSV) organisés en arborescence claire :
