@@ -132,6 +132,3 @@ Classement qualitatif des risques d'échec de l'allocation budgétaire et opéra
 
 ---
 
-## 8. Dépôt et revue
-
-Déposer cette contribution dans `kpi/02_fiches_indicateurs.md` dans une section nominative dédiée (en conservant les fiches des autres membres du groupe comme celle de Yasmine), effectuer un commit individuel, puis soumettre la contribution à la relecture du groupe pour valider le jeu collectif v0.
