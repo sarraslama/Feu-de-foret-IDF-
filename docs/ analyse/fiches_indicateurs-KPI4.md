@@ -1,9 +1,5 @@
 # Fiches d'indicateurs — Répartition budgétaire et allocation optimisée des ressources
 
-**Auteur·rice —** [Prénom Nom]  
-**Version individuelle de travail —** 19 novembre 2026  
-**Commanditaire —** SDIS 77. Étude centrée sur la Seine-et-Marne (77).  
-**Diagnostic et objectif associés —** `01_diagnostic_objectif_[prenom].md`
 
 ---
 
