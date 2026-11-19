@@ -3,7 +3,7 @@
 * **Autrice :** Fatiha Bouhadad
 * **Version individuelle de travail :** 19 novembre 2026
 * **Commanditaire :** SDIS 77. Étude de l'ensemble de l'Île-de-France, avec restitution départementale et lecture particulière du 77.
-* **Diagnostic et objectif associés :** `01_diagnostic_objectif_fatiha.md`
+* **Diagnostic et objectif associés :** `01_diagnostic_objectif_KPI1.md`
 
 ---
 
