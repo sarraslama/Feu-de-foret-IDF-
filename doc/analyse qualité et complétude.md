@@ -396,18 +396,6 @@ Les licences affichées ont été vérifiées sur les fiches officielles disponi
 
 **Normes qualité.** Les six dimensions du cours structurent l’analyse ; aucune certification ISO, aucun audit de sécurité et aucune certification RGPD ne sont établis par ce profilage.
 
-### 7.2. Traçabilité minimale dans l’entrepôt
-
-| Métadonnée | Raison |
-|---|---|
-| `source`, URL du jeu et nom du fichier | Retrouver le producteur et le lot |
-| Date d’extraction effective | Distinguer acquisition, publication et observation ; à renseigner depuis l’historique réel, sans l’inventer |
-| Millésimes / période couverte | Éviter les comparaisons de périodes incompatibles |
-| Filtres appliqués | Reproduire le sous-ensemble forêt MOS et le type de feu BDIFF |
-| Empreinte SHA-256 | Identifier précisément les octets contrôlés |
-| Version du script et des référentiels | Reproduire les contrôles et jointures |
-| Rapports de rejets et règles d’éligibilité | Expliquer les exclusions sans supprimer les preuves |
-| Licence et attribution | Conserver les conditions de réutilisation |
 
 ## 8. Cohérence intersources et barrières de publication
 
@@ -432,42 +420,8 @@ Les licences affichées ont été vérifiées sur les fiches officielles disponi
 
 Bloquer une publication analytique n’implique pas de jeter les données. Une ligne incomplète pour une analyse géométrique peut rester exploitable pour un contexte communal ou un inventaire de qualité.
 
-## 9. Conséquences pour les indicateurs du groupe
 
-| Indicateur envisagé | Statut avec les données reçues | Conditions et limite de l’affirmation |
-|---|---|---|
-| KPI principal : part des jours avec feu recensé sous le seuil météo | Calcul exploratoire possible sur 2024–2025 ; publication validée conditionnelle | Grain département-date cible-horizon, collecte BDIFF documentée, jointures vérifiées, scénarios 2/3/4 et seuil réel SDIS distingués |
-| Garde-fou : jours signalés sans feu recensé | Même condition que le principal | Dire « sans feu recensé » ; ne pas appeler ce chiffre coût réel, mobilisation à vide ou erreur certaine de prévision |
-| Volume de jours signalés | Calculable pour les archives météo | Conserver période, horizon, code et seuil ; volume potentiel, pas des moyens réellement engagés |
-| Répartition horaire et saisonnière | Calculable sur premières alertes BDIFF | Heure d’alerte distincte du départ ; petits effectifs et qualité de saisie à préciser |
-| Concentration communale | Calculable pour les feux recensés | Ne démontre pas un risque corrigé de la surface exposée ni une interface exacte |
-| Densité de feux par surface forestière | Conditionnelle | Valider unité, filtre, millésime, cohérence du type de feu et couverture du MOS |
-| Couverture effective d’un feu par le dispositif | Non calculable avec les seules sources fournies | Positions précises et présences réalisées du SDIS nécessaires |
-| Baisse des feux ≥ 1 ha en 2027 | Non mesurable aujourd’hui | Référence à calculer sur saisons comparables ; données futures nécessaires ; seuil ≥ 1 ha proposé pour l’analyse |
-| Délai d’arrivée ou coût d’intervention | Non calculable | Données opérationnelles et financières absentes |
-| Association départementale entre artificialisation et feux | Exploration descriptive possible sur les huit départements | Stocks 2021 ou flux à durées documentées ; décalage temporel et faibles effectifs à indiquer ; aucune causalité déduite |
-| Effet communal de l’artificialisation sur les feux | Non évaluable avec la seule table départementale | Données communales et dates compatibles nécessaires ; pas de désagrégation artificielle |
-
-Le KPI principal mesure une concordance entre danger annoncé et événements recensés, pas une prévision certaine de départ de feu ni l’efficacité intrinsèque de Météo-France ou du SDIS. Un taux à dénominateur nul est **non calculable**, pas égal à zéro. Chaque taux doit afficher son numérateur, son dénominateur, ses exclusions et sa période.
-
-## 10. Plan de correction priorisé
-
-| Priorité | Action | Responsable proposé | Résultat attendu |
-|---|---|---|---|
-| P0 | Mettre en œuvre et contrôler la jointure avec les codes et dates confirmés ; obtenir la règle de déclenchement réelle | Référent météo ; interlocuteur BDIFF pour le fuseau ; SDIS pour la mobilisation | Calendrier commun, correspondances vérifiées et scénarios distingués du seuil réel |
-| P0 | Limiter la matrice météo/feux aux périodes communes 2024–2025 | Référent entrepôt | Aucun faux négatif de collecte traité comme un zéro en 2026 |
-| P0 | Reporter les millésimes exacts du fichier départemental : 77 2017→2021, autres IDF 2018→2021 | Référent artificialisation | Périodes et grain départemental cohérents dans les fiches et livrables KPI |
-| P0 | Empêcher la multiplication des feux dans les jointures MOS | Référent entrepôt | Effectif événementiel conservé après enrichissement |
-| P1 | Récupérer géométries MOS manquantes, unités et SCR | Référent MOS | Surfaces, distances et intersections interprétables |
-| P1 | Revoir les deux lignes BDIFF similaires et les 11 statuts dégradés | Référent BDIFF | Règle d’éligibilité documentée, analyse de sensibilité |
-| P1 | Vérifier la couverture des feux par département et période | Référent BDIFF + interlocuteur SDIS | Distinction entre absence réelle d’événement et manque de collecte |
-| P1 | Compléter par un fichier communal d’artificialisation seulement si l’usage exige une analyse par commune | Référent artificialisation | Profilage communal distinct ; le fichier départemental est déjà fourni et contrôlé |
-| P2 | Tester géométries, frontières historiques et stabilité interversions | Référent géographie | Contrôles topologiques et référentiels complémentaires |
-| P2 | Obtenir présences, moyens et délais si ces KPI sont maintenus | Groupe + SDIS 77 | Possibilité de mesurer le dispositif réel |
-
-Les rôles sont proposés et doivent être attribués aux membres du groupe. Aucun de ces contrôles n’est déclaré réalisé tant que sa preuve n’est pas jointe.
-
-## 11. Conclusion d’aptitude à l’usage
+## 9. Conclusion d’aptitude à l’usage
 
 Les quatre sources sont complémentaires pour un entrepôt descriptif, avec des périmètres distincts. Les archives météo et les champs centraux BDIFF permettent de préparer le KPI principal sur 2024–2025, sous contrôle des dates et de la collecte. Le MOS est utilisable comme extrait forestier ; l’artificialisation fournie apporte un contexte départemental historique pour les huit départements franciliens. Les analyses géométriques exhaustives, les classements communaux fondés sur l’artificialisation et les mesures de performance opérationnelle demandent des données ou des validations supplémentaires.
 
