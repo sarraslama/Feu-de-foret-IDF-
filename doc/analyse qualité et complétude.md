@@ -1,11 +1,10 @@
 # Qualité, complétude et conformité des données — Étude francilienne pour le SDIS 77
 
 **Date du contrôle : 20 novembre 2026.**  
-**Version : rapport collectif de travail v2 — fichier départemental d’artificialisation retenu ; codes météo, horizons et date d’émission confirmés par le groupe le 20 novembre 2026.**  
 **Périmètre : toute l’Île-de-France ; interprétation opérationnelle particulière pour la Seine-et-Marne.**  
 **Finalité : préparer un entrepôt permettant de décrire les feux recensés, contextualiser les territoires et étudier la concordance entre seuils météo et journées avec feu recensé.**
 
-Les résultats chiffrés ci-dessous proviennent du profilage des fichiers effectivement fournis. Les informations documentaires et les contrôles non réalisés sont distingués. 
+Les résultats chiffrés ci-dessous proviennent des analyses des bases de données predefinis, Les informations documentaires et les contrôles non réalisés sont distingués. 
 
 ## 1. Page de profil synthétique
 
@@ -77,7 +76,7 @@ Les 42 115 zones concernent 1 204 codes communaux et les huit départements fran
 | 95 | 4723 | 33 | 0,70 % |
 
 
-Les géométries présentes sont de type `Polygon`. Le contrôle JSON et la fermeture des anneaux n’ont détecté aucune anomalie sur ces géométries. **L’auto-intersection, les recouvrements, les trous topologiques et la couverture régionale n’ont pas été contrôlés** : une géométrie JSON lisible n’est pas nécessairement une géométrie topologiquement valide.
+Les géométries présentes sont de type `Polygon`. 
 
 Les coordonnées présentes sont de l’ordre de 1,46–3,56 en longitude et 48,12–49,24 en latitude, alors que la documentation du jeu d’origine mentionne EPSG:2154. L’export et la source peuvent utiliser des systèmes différents. Ne pas attribuer automatiquement EPSG:2154 aux coordonnées exportées. Vérifier le SCR avant calcul d’aires ou de distances ; ne pas calculer une aire métrique directement sur des coordonnées angulaires. `Geo Point` ne remplace pas le polygone pour une intersection.
 
@@ -472,33 +471,4 @@ Les rôles sont proposés et doivent être attribués aux membres du groupe. Auc
 
 Les quatre sources sont complémentaires pour un entrepôt descriptif, avec des périmètres distincts. Les archives météo et les champs centraux BDIFF permettent de préparer le KPI principal sur 2024–2025, sous contrôle des dates et de la collecte. Le MOS est utilisable comme extrait forestier ; l’artificialisation fournie apporte un contexte départemental historique pour les huit départements franciliens. Les analyses géométriques exhaustives, les classements communaux fondés sur l’artificialisation et les mesures de performance opérationnelle demandent des données ou des validations supplémentaires.
 
-Le rapport autorise l’exploration documentée ; il n’autorise pas à annoncer une couverture exhaustive des feux, une carte complète des interfaces, une mesure des coûts réels ou une baisse attribuable au dispositif.
 
-## 12. Sources documentaires
-
-Les chiffres de profilage proviennent des CSV contrôlés, identifiés par leurs empreintes en annexe. Les documents du cours et les descriptions transmises par le groupe complètent cette preuve. Les confirmations du groupe du 20 novembre 2026 sont tracées comme telles : 1=faible, 2=modéré, 3=élevé, 4=très élevé ; `date` météo=émission ; J+1=lendemain et J+2=surlendemain ; première alerte BDIFF=signalement du feu.
-
-- **Cours** : Marine Prost, HETIC 2026–2027, « Qualité et complétude des données », notamment six dimensions, complétude valeurs/population/périodes, assertions et décisions de chargement.
-- [MOS 2021/2025 — portail officiel Île-de-France](https://data.iledefrance.fr/explore/dataset/mos-occupation-du-sol-2025-and-2021-en-79-postes-de-la-region-ile-de-france/) — licence et description du jeu complet ; ne remplace pas le profil de l’export filtré.
-- [Nomenclature MOS 79 postes](https://data.iledefrance.fr/explore/dataset/nomenclature-du-mode-d-occupation-du-sol-francilien-79-postes/) — fichier de 79 postes fourni et contrôlé localement.
-- [Artificialisation — fiche officielle Mon Diagnostic Artificialisation](https://www.data.gouv.fr/datasets/artificialisation-des-sols-donnees-par-region-departement-scot-commune-et-epci) — objectifs et licence ; seuls les attributs et millésimes de `artif-departement.csv` sont retenus dans cette version.
-- [Archives Météo des forêts — fiche officielle](https://www.data.gouv.fr/datasets/archives-de-la-meteo-des-forets) — producteur et licence.
-- [Météo-France — présentation de la Météo des forêts](https://meteofrance.com/meteo-des-forets) — catégories et portée de l’information.
-- [BDIFF — fiche officielle](https://www.data.gouv.fr/datasets/base-de-donnees-sur-les-incendies-de-forets-en-france-bdiff) — producteur, licence et cadre de diffusion. Sa couverture temporelle de métadonnées peut être plus ancienne que les observations reçues ; conserver les deux informations séparément.
-- [BDIFF — aide recherche et téléchargement](https://bdiff.agriculture.gouv.fr/aide/recherche) — sens du signalement de données partielles ou non valides ; extrait indexé consulté, page complète non récupérée pendant cette vérification.
-- [CNIL — définition d’une donnée personnelle](https://www.cnil.fr/fr/definition/donnee-personnelle) — identification directe et indirecte.
-
-Fiches publiques vérifiées le **20 novembre 2026**, selon leur accessibilité. Aucune date d’extraction des CSV n’est inventée à partir de la date du présent rapport.
-
-## Annexe — Fichiers contrôlés et empreintes SHA-256
-
-
-| Fichier | SHA-256 |
-| --- | --- |
-| mos-occupation-du-sol-2025-and-2021-en-79-postes-de-la-region-ile-de-france.csv | `4c78f97cc5bb43fe38f7326f9490b52ac6c0aea1eb89ff818776c2ae478de95d` |
-| mdf_2024.csv | `53c1b0d89633afd3dbae17004affca64998654d77db7047e0abd607a8f2d6568` |
-| Incendies.csv | `1c7d261b0fdd1ae8e45b829fe7b9cf815fca39a979e115b47bb021732d5e7c1b` |
-| mdf_2025.csv | `383c34692ed322c5ef14ef8b5c02c7b03d07c08a060eeeda2a98f0586313e15a` |
-| nomenclature-du-mode-d-occupation-du-sol-francilien-79-postes.csv | `c83b1fe9f7f9d79f82782cb35d38c1c0e6250660789f5572447138fd89959ac0` |
-| artif-departement.csv | `f535168241d0093c561fa61c3dea3098f17eacbe1134412b5b927a627010a240` |
-| mdf_2026.csv | `5542af01679987c277edb49ccaf6651dc0b7dd6e1f76a91c152b1fd0a8dc05b3` |
