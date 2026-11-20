@@ -1,4 +1,4 @@
-# Qualité, complétude et conformité des données — Étude francilienne pour le SDIS 77
+# Qualité, complétude des données 
 
 **Date du contrôle : 20 novembre 2026.**  
 **Périmètre : toute l’Île-de-France ; interprétation opérationnelle particulière pour la Seine-et-Marne.**  
