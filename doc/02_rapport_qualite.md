@@ -383,9 +383,6 @@ Les données permettent de décrire les **feux recensés sous les critères de c
 
 Les licences affichées ont été vérifiées sur les fiches officielles disponibles au 20 novembre 2026. Elles ne dispensent pas de conserver les conditions associées au lot effectivement téléchargé. Documenter la source, le lien, la version, les dates et les transformations dans le dépôt, et archiver la licence applicable.
 
-**Protection des données.** L’absence de noms ne suffit pas à certifier l’anonymat : la CNIL rappelle qu’une identification peut résulter d’un croisement d’informations. Pour ce projet, les champs publics contrôlés ne présentent pas d’identifiant direct de personne repéré. Toute arrivée de données internes SDIS contenant agents, victimes, adresses ou récits exige une réévaluation de la finalité, des accès, de la conservation et des risques d’identification. Éviter de verser ces futures données internes dans le dépôt public ; publier les agrégats nécessaires à la restitution.
-
-**Normes qualité.** Les six dimensions du cours structurent l’analyse ; aucune certification ISO, aucun audit de sécurité et aucune certification RGPD ne sont établis par ce profilage.
 
 
 ## 6. Cohérence intersources et barrières de publication
